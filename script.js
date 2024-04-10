@@ -61,30 +61,7 @@ function teamAnimation(){
 
 })
 }
-function paraAnimation(){
-    var clutter = '';
-document.querySelector(".textPara")
-.textContent.split("")
-.forEach(function(e){
-    if(e=== " ") clutter += `<span>&nbsp;</span>`
-    clutter += `<span> ${e} </span>`
-})
 
-document.querySelector(".textPara").innerHTML=clutter;
-gsap.set(".textPara span", {opacity: .1})
-gsap.to(".textPara span", {
-    scrollTrigger: {
-        trigger: ".para",
-        start: "top 60%",
-        end: "bottom 90%",
-        scrub: 1
-    }, 
-    opacity: 1, 
-    stagger: .03,
-    ease: Power4
-})
-
-}
 function capsuleAnimation(){
     gsap.to(".capsule:nth-child(2)", {
         scrollTrigger:{
@@ -120,7 +97,6 @@ document.body.setAttribute("theme", e.dataset.color)
  homePageAnimation()
  realPageAnimation()
  teamAnimation()
- paraAnimation()
  capsuleAnimation()
 
 

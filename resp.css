@@ -1,7 +1,6 @@
 @media (max-width: 900px) {
     .ltext {
         width: 100% !important;
-        background-color: red;
     }
     .ltext p {
         font-size: 18px;
@@ -36,7 +35,6 @@
         width: 100% !important;
     }
     .slide2{
-        background-color: green;
     }
     .realText{
         width: 100%;
@@ -91,5 +89,20 @@
     }
     .cap2{
         transform: translate(0px, 0) rotate(-18.0002deg) !important;
+    }
+    .pparaText{
+        margin-top: 316px !important;
+    }
+    .stickyLtext{
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    .introVdo{
+        scale: 4 !important;
+        position: absolute !important;
+        left: 50% !important;
+        transform: translate(-10%, 36%) !important;
+        top: 0 !important;
+        height: auto !important;
     }
 }
