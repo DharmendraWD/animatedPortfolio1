@@ -1,0 +1,95 @@
+@media (max-width: 900px) {
+    .ltext {
+        width: 100% !important;
+        background-color: red;
+    }
+    .ltext p {
+        font-size: 18px;
+        line-height: 1;
+        padding: 10px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+    .ltext h1 {
+        font-size: 26px;
+        line-height: 1; 
+        margin: 24px 0;
+        text-align: center;
+    }
+    .cards {
+        width: 100% !important;
+
+    }
+    .fHireMe{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .craft {
+        padding: 0 4px 0 4px !important;
+        flex-direction: column;
+    }
+    .lottocome{
+        flex-direction: column !important;
+    }
+    .lottocomeChild{
+        width: 100% !important;
+    }
+    .slide2{
+        background-color: green;
+    }
+    .realText{
+        width: 100%;
+        background-color: #5f5e5e;
+    }
+    .realText h1{
+        font-size: 2rem;
+    }
+    .realFirstImage{
+        height: 13rem !important;
+        width: 13rem !important;
+    }
+    .designBeyo{
+        width: 80% !important;
+    }
+    .topperTextReal h1{
+        font-size: 8rem;
+    }
+    .topperTextReal{
+        position: absolute;
+    bottom: 100px;
+    }
+    .team{
+        font-size: 2rem !important;
+    }
+    .list{
+        margin: 0 !important;
+    }
+    .left {
+        gap: 0 !important;
+    }
+    .left h1 {
+        font-size: 1.2rem;
+    }
+    .list {
+        padding: 0 4px !important;
+    }
+    .capsules {
+        padding: 0 4px !important;
+    }
+    .capsule{
+        padding: 0 4px !important;
+    }
+    .capImg{
+        width: 4rem !important;
+        height: 4rem !important;
+        
+    }
+    .footerHeading h3{
+        font-size: 1rem !important;
+        line-height: 1 !important;
+    }
+    .cap2{
+        transform: translate(0px, 0) rotate(-18.0002deg) !important;
+    }
+}
