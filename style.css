@@ -44,7 +44,7 @@ body[theme="cyan"] .section{
 body{
     transition:.5s ease-in-out;
 font-family: Pp_Neue_Machina;
-overflow: hidden !important;
+overflow-x: hidden !important;
 }
 
 
