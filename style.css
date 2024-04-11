@@ -44,6 +44,7 @@ body[theme="cyan"] .section{
 body{
     transition:.5s ease-in-out;
 font-family: Pp_Neue_Machina;
+overflow: hidden !important;
 }
 
 
@@ -289,3 +290,42 @@ font-family: Pp_Neue_Machina;
   button:active span::before {
     background: #2751cd;
   }
+
+  .btnHireme2 {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .btnHireme2:hover {
+    color: black;
+   }
+   
+   .btnHireme2:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .btnHireme2:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }

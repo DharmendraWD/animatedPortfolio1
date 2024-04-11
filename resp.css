@@ -3,7 +3,7 @@
         width: 100% !important;
     }
     .ltext p {
-        font-size: 18px;
+        font-size: 25px;
         line-height: 1;
         padding: 10px 0 0 0;
         margin: 0;
@@ -38,7 +38,6 @@
     }
     .realText{
         width: 100%;
-        background-color: #5f5e5e;
     }
     .realText h1{
         font-size: 2rem;
@@ -94,8 +93,7 @@
         margin-top: 316px !important;
     }
     .stickyLtext{
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+       background-color: #80BECC;
     }
     .introVdo{
         scale: 4 !important;
@@ -104,5 +102,51 @@
         transform: translate(-10%, 36%) !important;
         top: 0 !important;
         height: auto !important;
+    }
+    .believeText{
+        position: absolute !important;
+        position: relative !important;
+        right: 4% !important;
+    }
+    .hrSilde3{
+        flex-shrink: 3 !important;
+        width: auto !important;
+        padding-right: 100px;
+        position: relative !important;
+        top: 157px !important;
+    }
+    .hrSilde3 h3{
+
+    }
+    .hrSilde3 h1{
+        font-size: 7rem !important;
+        width: 100% !important;
+    }
+    .weHelp{
+        width: 100% !important;
+        position: absolute !important;
+        left: 62px !important;
+        top: -129px !important;
+        color: white !important;
+    }
+    .hr3Para {
+        background-color: transparent !important;
+    }
+    .textPara{
+        font-size: 22px !important;
+    }
+    .capsules{
+flex-direction: column !important;
+    }
+    .leftinCap{
+        width: 100% !important;
+        transform: translate3d(0) !important;
+    }
+    .rightIncap{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    .capsule{
+        transform: translate(0) !important;
     }
 }
